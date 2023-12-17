@@ -6,6 +6,7 @@ import { FoodPageComponent } from './component/pages/food-page/food-page.compone
 const routes: Routes = [
   {path:'', component: HomeComponent},
   {path:'search/:searchTerm', component: HomeComponent},
+  {path:'tag/:tag', component:HomeComponent},
   {path:'food/:id', component: FoodPageComponent}
 ];
 
